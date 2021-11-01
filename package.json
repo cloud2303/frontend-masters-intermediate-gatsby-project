@@ -1,0 +1,9 @@
+{
+  "name": "frontend-masters-intermediate-gatsby-project",
+  "version": "1.0.0",
+  "description": "This is the project we'll work through during the Frontend Masters Intermediate Gatsby course.",
+  "scripts": {
+    "develop": "pnpm  develop --filter 'site'",
+    "build": "pnpm  build --filter 'site'"
+  }
+}

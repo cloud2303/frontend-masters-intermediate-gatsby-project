@@ -1,0 +1,30 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 3,
+    "workspacePrefix": "/Users/hui/frontend-masters-intermediate-gatsby-project"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "site@1.0.0 develop: `gatsby develop`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: site@1.0.0 develop: `gatsby develop`\nExit status 1\n    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:105044:20)\n    at EventEmitter.emit (node:events:390:28)\n    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:92984:18)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1062:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  },
+  "2 error pnpm": {
+    "errno": 1,
+    "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+    "pkgid": "site@1.0.0",
+    "stage": "develop",
+    "script": "gatsby develop",
+    "pkgname": "site",
+    "prefix": "/Users/hui/frontend-masters-intermediate-gatsby-project/packages/site",
+    "err": {
+      "name": "pnpm",
+      "message": "site@1.0.0 develop: `gatsby develop`\nExit status 1",
+      "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+      "stack": "Error: site@1.0.0 develop: `gatsby develop`\nExit status 1\n    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:105044:20)\n    at EventEmitter.emit (node:events:390:28)\n    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:92984:18)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1062:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  }
+}

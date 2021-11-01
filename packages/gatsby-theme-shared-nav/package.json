@@ -1,0 +1,12 @@
+{
+  "name": "gatsby-theme-shared-nav",
+  "version": "1.0.0",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "gatsby-plugin-emotion": "^7.0.0",
+    "gatsby-plugin-layout": "^3.0.0"
+  }
+}
